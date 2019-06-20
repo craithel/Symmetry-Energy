@@ -12,9 +12,7 @@
  * To compile: gcc yp_coefs.c -lm
 ---------------------------------------------------------------------------*/
 
-#include <stdlib.h>
-#include <stdio.h>
-#include <math.h>
+#include "yp_coef.h"
 
 #define n0 0.16		// nuclear saturation density, in fm^-3
 #define hc 197.327	// hbar*c, in MeV fm
